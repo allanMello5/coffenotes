@@ -1,0 +1,54 @@
+@import url(../../App.css);
+
+
+.presentation{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 3rem ;
+    background-color: #0e0b0b27;
+    
+}
+.presentation p{
+    margin-bottom: 3rem;
+}
+.menu .box-container{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:1.5rem;
+}
+.menu .box-container .box{
+    padding: 3rem;
+    text-align: center;
+    border: var(--border);
+}
+.menu .box-container .box img{
+    height: 6rem;
+}
+.menu .box-container .box h3{
+    color: var(--bg);
+    font-size: 2rem;
+    padding: 2rem;
+    padding:  1rem 0;
+}
+.menu .box-container .box .price{
+    color:var(--bg);
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-size: lighter;
+   
+}
+.menu .box-container .box:hover{
+    background: var(--bg);
+    
+}
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+.menu .box-container .box img:hover{
+    transform: scale(1.1)
+}

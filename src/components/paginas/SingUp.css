@@ -1,0 +1,111 @@
+@import url(../../App.css);
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    min-height: 100vh;
+}
+.heading{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.container form {
+    width: 600px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container form .links {
+    background: #242424;
+    padding: 30px 15px;
+}
+
+.container form .title {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.container form .links .buttons .btn {
+    font-size: 17px;
+    margin: 5px;
+    display: inline-block;
+    border: var(--border);
+    border-radius:5px;
+    padding:10px 30px;
+    color: #fff;
+}
+
+.container form .links .buttons .btn i{
+    color: #fff;
+    padding-right: 5px;
+}
+.container form .links .buttons .btn:hover{
+    color: #fff;
+    background:var(--main-color);
+}
+.container form .links .buttons .btn:hover i{
+    color: #fff;
+    
+}
+.container form .input-box{
+    padding:30px;
+    background: #242424;
+}
+.container form .input-box .title{
+    color: #fff;
+    
+}
+.container form .input-box .input{
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow:0 5px 10px rgba(0, 0, 0, .1);
+    border: var(--border);
+}
+.container form .input-box .input input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color:var(--bg);
+    text-transform: none;
+}
+.container form .input-box .input span{
+    color:#999;
+    padding-right: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.container form .checkbox{
+    text-align: left;
+    padding: 10px 0;
+}
+.container form .checkbox label{
+    font-size: 17px;
+    color:#fff;
+    cursor: pointer;
+}
+.container form  .sing-in-btn{
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    background: var(--main-color);
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+.container form .sing-in-btn:hover{
+    color: #242424;
+    background: #fff;
+}

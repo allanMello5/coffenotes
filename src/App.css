@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+
+:root {
+  --main-color: #e4a85e;
+  --black: #242424;
+  --bg: #fff;
+  --border: .1rem solid rgb(255, 255,255, .3)
+}
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+ 
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+ 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html::-webkit-scrollbar {
+  width: .9rem;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html::-webkit-scrollbar-track {
+  background: transparent;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+html::webkit::-webkit-scrollbar-thumb {
+  background:var(--black);
+  border-radius: 5rem;
+  ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: var(--bg);
+}
+section{
+  padding: 2rem 7%;
+}
+
+.products {
+  background-image: url('/public/images/home-img.jpeg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.menu{
+  background-image: url('/public/images/Cafe-background-1-1000x1000.jpg') ;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+ 
+ 
+}
+.sing-up{
+  background-image: url('/public/images/coffee-shop.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten
+}
+
+span{
+  color: var(--main-color);
 }
